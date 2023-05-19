@@ -8,29 +8,31 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Brandon Burks</h1>
-<nav>
-    <ul>
-        <li><a href="#aboutme">About Me</a></li>
-        <li><a href="#contact">Contact Me</a></li>
-        <li><a href="#social">Social</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#projects">Projects</a></li>
+    <h1 class="name">Brandon Burks</h1>
+<nav class="navigation">
+    <div class="flexbox-container">
+    <ul class="goto">
+        <li class="gt"><a href="#aboutme">About Me</a></li>
+        <li class="gt"><a href="#contact">Contact Me</a></li>
+        <li class="gt"><a href="#social">Social</a></li>
+        <li class="gt"><a href="#skills">Skills</a></li>
+        <li class="gt"><a href="#projects">Projects</a></li>
     </ul>
-
+    </div>
 </nav>
 
-<section class="BrandonPic">
-    <img src="Brandonkids.jpg" 
-    height="500"
-    width="550" 
+<div class="mainimg">
+<section class="brandonpic">
+    <div class="mainpicsz"><img src="Brandonkids.jpg" 
+    height="100%"
+    width="100%" 
     alt="" sizes="500px" srcset="">
-
+    </div>
 </section>
-
+</div>
 
 <section class="aboutme" id="aboutme">
-    <p>My name is Brandon Burks. Lorem ipsum dolor sit amet consectetur, 
+    <p><Strong> My name is Brandon Burks. Lorem ipsum dolor sit amet consectetur, 
     adipisicing elit. Commodi aspernatur ab, explicabo illum praesentium 
     reiciendis nesciunt corporis sint repellendus totam quam qui 
     perspiciatis culpa reprehenderit similique! Alias rerum error quia,
@@ -41,12 +43,12 @@
     Fugit corporis, cum sed recusandae ut, voluptatem necessitatibus temporibus, 
     eum architecto consequatur rerum odio? Ipsam esse dolorem provident ducimus sit,
     voluptatibus magnam reiciendis 
-    quaerat nam excepturi omnis ea repellendus consequuntur pariatur. </p>
+    quaerat nam excepturi omnis ea repellendus consequuntur pariatur. </Strong></p>
 
 </section>
 
 <section class="contact" id="contact">
-    <h4>Contact me:</h4>
+    <h4 class="ch">Contact me:</h4>
     <ul>
         <li>Phone: 706-296-7481</li>
         <li>Email: Prince.of.burks@gmail.com</li>
@@ -56,17 +58,20 @@
 
 
 <section class="social" id="social">
-<h4>Networking</h4>
-<a href="https://github.com/PrinceBurks"> <img src="github.png" 
+<h4 class="sectionhead">Networking</h4>
+<div class="socialpics">
+    <div class="github"> <a href="https://github.com/PrinceBurks"> <img src="github.png" 
         width= "150"
-        height="50" alt=""></a></li><br>
-    <a href="https://github.com/PrinceBurks"> <img src="linkedIn.png" 
-        width= "140"
-        height="40" alt=""></a></li>
-
+        height="50" alt=""></a></div><br>
+    <div class="linkedin"> <a href="https://github.com/PrinceBurks"> <img src="linkedIn.png" 
+        width= "150"
+        height="50" alt=""></a></div>
+</div>
 </section>
 <section class="skills" id="skills">
-    <h4>Skills</h4>
+    <h4 class="sectionhead">Skills</h4>
+    <div class="flex-skills">
+    <div class="skillslist">
     <ul>
         <li>VBA coding</li>
         <li>Excel</li>
@@ -74,28 +79,52 @@
         <li>CSS</li>
         <li>CSS Grid</li>
         <li>CSS Flexbox</li>
-    </ul>
+        <li>Data Processing</li>
+    </ul></div>
+    <div class="skillslist2">
+    <ul>
+        <li>Problem Solving</li>
+        <li>Critical thinking</li>
+        <li>Process planning/rollout</li>
+        <li>Team Managment</li>
+        <li>Project Managment</li>
+        <li>Communication</li>
+        <li>Code debug</li>
+    </ul></div>
+</div>
 </section>
 
 
 <section class="projects" id="projects">
-<h4>Projects</h4>
+<h4 class="sectionhead">Projects</h4>
 <article>
+    <div class="semantic">
     <h5><a href="https://github.com/WeCanCodeIT/semantic-markup-cs-PrinceBurks">
         Semantic markup
-    </a></h5>
+    </a></h5></div>
+    <div class="skilluse"> 
         <ul>
             <li>HTML</li>
-        </ul>
+        </ul></div>
 </article>
+<div class="semanpics">
+    <div class="semanticpic1">
     <img src="semantic1.PNG" alt=""
-    height="500"
-    width="500">
-
-    <img src="semantic2.PNG" alt=""
-    height="500"
-    width="500">
-
+    height="100%"
+    width="100%">
+    </div>
+        <div class="semanticpic2">
+            <img src="semantic2.PNG" alt=""
+                  height="100%"
+                width="100%"> 
+</div>
+</div>
 </section>
+
+<footer class="signature">
+    <img src="signature.png" 
+    height="200px" 
+    width="600px" alt="">
+</footer>
 </body>
 </html>
