@@ -1,16 +1,19 @@
 body{
-    background-image: url("background.jpg");
+    background-image: url("images/background.jpg");
 }
 .aboutme{
-    
-
+    display: flex;
+    justify-content: space-around;
     background-color: aliceblue;
     opacity: .6;
     color: rgba(0, 0, 0, 0.8);
-        display: flex;
-    justify-content: space-around;
-
+    text-align: center;
     padding: 20px;
+    border: 15px solid transparent;
+    padding: 2px;
+    border-image-source: url("images/navborder3.jfif");
+    border-image-repeat: stretch;
+    border-image-slice: 50;
 }
 
 .name{
@@ -19,36 +22,26 @@ body{
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    font-size: 50px;
 }
-
 
 .goto{
     display: flex;
-justify-content: space-around;
+    justify-content: space-around;
     list-style: none;
-
 }
+
 .gt{
-    /* background-color: rgb(245, 239, 239);
-    opacity: .6;
-    color: rgb(6, 6, 7); */
-    border: 15px solid transparent;
-    padding: 2px;
-    border-image-source: url("navborder.png");
+
+    color: rgb(26, 23, 23);
+    border: 7px solid transparent;
+    border-image-source: url("images/navborder4.png");
     border-image-repeat: stretch;
-    border-image-slice: 50;
+    border-image-slice: 20;
+    background-color: aliceblue;
+    opacity: .6;
 }
 
-/* .brandonpic{
-    display: flex;
-    justify-content: center;
-    padding: 20px;
-
-    
-    margin-right: 200px;
-    margin-left: 200px;
-    
-} */
 .mainpic{
     width: 100%;
     height: 100%;
@@ -57,8 +50,8 @@ justify-content: space-around;
     display: flex;
     justify-content: center;
     max-width: 75%;
-    max-height: 25%;
     min-width: 50%;
+    max-height: 25%;    
     min-height: 50%;
     margin-right: 200px;
     margin-left: 200px;
@@ -66,15 +59,20 @@ justify-content: space-around;
 }
 
 .contact{
-    height: 100px;
-
     display: flex;
+    height: 100px;    
     justify-content: center;
     margin-top: 20px;
     background-color: aliceblue;
     opacity: .6;
-padding: 20px;
+    padding: 20px;
+    border: 15px solid transparent;
+    padding: 2px;
+    border-image-source: url("images/navborder3.jfif");
+    border-image-repeat: stretch;
+    border-image-slice: 50;
 }
+
 .sectionhead{
     display: flex;
     justify-content: center;
